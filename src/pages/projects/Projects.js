@@ -16,9 +16,13 @@ class Projects extends Component {
     return (
       <div className="projects-main">
         <Header theme={theme} />
+
+
         <div className="basic-projects">
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
+
+
               <div className="projects-heading-img-div">
                 {/* <img
 											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
@@ -26,6 +30,8 @@ class Projects extends Component {
 										/> */}
                 <ProjectsImg theme={theme} />
               </div>
+
+
               <div className="projects-heading-text-div">
                 <h1
                   className="projects-heading-text"
@@ -43,6 +49,9 @@ class Projects extends Component {
             </div>
           </Fade>
         </div>
+
+
+
         <div className="repo-cards-div-main">
           {ProjectsData.data.map((repo) => {
             return <GithubRepoCard repo={repo} theme={theme} />;
@@ -51,7 +60,7 @@ class Projects extends Component {
         <Button
           text={"More Projects"}
           className="project-button"
-          href="https://github.com/ashutosh1919"
+          href="https://github.com/Tanviras"
           newTab={true}
           theme={theme}
         />
