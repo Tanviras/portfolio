@@ -142,48 +142,50 @@ const skills = {
 
 
 
-    {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
+    // {
+    //   title: "Data Science & AI",
+    //   fileName: "DataScienceImg",
+    //   skills: [
+    //     "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
+    //     "⚡ Experience of working with Computer Vision and NLP projects",
+    //     "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "Tensorflow",
+    //       fontAwesomeClassname: "logos-tensorflow",
+    //       style: {
+    //         backgroundColor: "transparent",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Keras",
+    //       fontAwesomeClassname: "simple-icons:keras",
+    //       style: {
+    //         backgroundColor: "white",
+    //         color: "#D00000",
+    //       },
+    //     },
+    //     {
+    //       skillName: "PyTorch",
+    //       fontAwesomeClassname: "logos-pytorch",
+    //       style: {
+    //         backgroundColor: "transparent",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Python",
+    //       fontAwesomeClassname: "ion-logo-python",
+    //       style: {
+    //         backgroundColor: "transparent",
+    //         color: "#3776AB",
+    //       },
+    //     },
 
-      ],
-    },
+    //   ],
+    // },
+
+
     {
       title: "Design",
       fileName: "DesignImg",
